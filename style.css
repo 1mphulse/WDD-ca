@@ -1,0 +1,52 @@
+/*this css targets the gallery*/
+.nav { /* targets all the nav elements*/
+justify-content: center; /* centers the nav bar */
+}
+
+.column{
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}	
+.column img{
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width: 500px){
+.column{
+	display: flex;
+	flex-direction: column;
+	gap: 15px
+	
+	}
+}
+
+	/*makes all the pictures the same dimensions*/
+img{
+	width: 100%;
+  height: auto;
+  
+}
+/* @reference https://www.youtube.com/watch?v=3TN9J3pCn6k
+https://www.w3schools.com/css/css3_flexbox_responsive.asp 
+https://www.youtube.com/watch?v=wsTv9y931o8&t=530s*/
+
+/*
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/*this part is for the action page*/ 
+/*.apicture img {
+	height: 500px;
+	width: auto;
+}
