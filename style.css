@@ -58,7 +58,7 @@ https://www.youtube.com/watch?v=wsTv9y931o8&t=530s*/
 /*this part is for the action page*/ 
 .apicture img {
 	height: 500px;
-	width: auto; /* allows the computer to calculate the width of the photo, usually keeps the pics aspect ratio/*
+	width: auto; /* allows the computer to calculate the width of the photo, usually keeps the pics aspect ratio*/
 }
 body{
 	background: linear-gradient(red, white); /* creates a red to pink color gradient*/

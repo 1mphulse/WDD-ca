@@ -15,67 +15,68 @@
 		<div class="container-fluid">
 		<!-- nav -->
 	
-		<div class="row">
-		<div class="col-sm-12">
+			<div class="row">
+			<div class="col-sm-12">
+			</div>
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-2">
+			</div>
+			
+				<div class="col-sm-2">
+				</div>
+			
+				<div class="col-sm-2">
+				</div>
+			
+				<div class="col-sm-2">
+				</div>
+			
+				<div class="col-sm-2">
+				</div>
+			
+				<div class="col-sm-2">
+				</div>
+			
+				<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" >Contact</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="#">Home</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="gallery.html">Gallery</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="#">The problem</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="#">The solution</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="action.html">Action</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="#">Resources</a>
+			</li>
+		  
+			<li class="nav-item">
+				<a class="nav-link" href="#">Contact page</a>
+			</li> 
+			</ul>
+			<!-- @reference https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior -->
+			</div>
 		</div>
-		</div>
 		
-		<div class="row">
-		
-			<div class="col-sm-2">
-		</div>
-		
-			<div class="col-sm-2">
-			</div>
-		
-			<div class="col-sm-2">
-			</div>
-		
-			<div class="col-sm-2">
-			</div>
-		
-			<div class="col-sm-2">
-			</div>
-		
-			<div class="col-sm-2">
-			</div>
-		
-			<ul class="nav nav-tabs">
-		<li class="nav-item">
-			<a class="nav-link active" aria-current="page" >Contact</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="#">Home</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="gallery.html">Gallery</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="#">The problem</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="#">The solution</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="action.html">Action</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="#">Resources</a>
-		</li>
-	  
-		<li class="nav-item">
-			<a class="nav-link" href="#">Contact page</a>
-		</li> 
-		</ul>
-		<!-- @reference https://getbootstrap.com/docs/5.3/components/navs-tabs/#javascript-behavior -->
-		</div>
-	
 		<main>
 	
 			<div class="first-heading">
@@ -85,29 +86,36 @@
 				<h2> Contact Us</h2>
 			</div>
 			<div class="contacts-row">
-			<div class="online-inquiries">
-			<h3> Inquiries</h3>
-			
-			<p id="demo"></p>
+				<div class="online-inquiries">
+				<h3> Inquiries</h3>
 				
-				<input type="text" id="username" placeholder ="name..."> <!-- creates a text box with a placeholder to inform user of what info goes in there -->
-				<button type="button" onclick="show()">enter</button>
-				
-			<p id="demo 2"></p>
-				<input type="text" id="username" placeholder ="email...">
-				<button type="button" onclick="show()">enter</button>
-				
+				<p id="demo"></p>
 					
-			<p id="demo 3"></p>
-				<input type="box" id="username" placeholder ="phone number...">
-				<button type="button" onclick="show()">enter</button>
+					<input type="text" id="firstname" placeholder ="name..."> <!-- creates a text box with a placeholder to inform user of what info goes in there -->
+					<button type="button" onclick="myFunction()">enter</button>
+					
+				<p id="demo2"></p>
+					<input type="text" id="email" placeholder ="email...">
+					<button type="button" onclick="myFunction()">enter</button>
+					
+						
+				<p id="demo3"></p>
+						
+					<input type="text" id="mobile" placeholder ="phone number...">
+					<button type="button" onclick="myFunction()">enter</button>
+			<script>
+			function myFunction() {
+			  alert("your info has been recorded!"); 
+			}
+			</script>	
 			
-	
-			<p id="demo 4"></p>			
-				<textarea rows="5" cols="30" > <!-- creates a larger 'textbox' used for longer messages -->
-				</textarea>
+				<p id="demo4"></p>			
+					<textarea rows="5" cols="30"> 
+					</textarea>
+					<!-- creates a larger 'textbox' used for longer messages -->
+				</div>
 			</div>
-			
+				
 			<div class="contact-details">
 			<h3>Contact details</h3>
 			
@@ -116,8 +124,6 @@
 			<p> Mayor Street Lower</p>
 			<p>Nci basement</p>
 			</div>
-			
-		</script>
 		</main>
 	</body>
 </html>
