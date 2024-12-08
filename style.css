@@ -1,8 +1,19 @@
-/*this css targets the gallery*/
+
 .nav { /* targets all the nav elements*/
-justify-content: center; /* centers the nav bar */
+	justify-content: center; /* centers the nav bar */
 }
 
+.nav-link{
+	 color: white;
+ }
+ /* overides the nav-link normal black text color to white */
+ /* @ reference https://www.youtube.com/watch?v=z4Ygm6EFaQ8 (minute 1:34)*/
+ 
+ .first-heading{
+	 color: white; /* targets the heading tag and makes the text white*/
+ }
+ 
+ /*this css targets the gallery*/
 .column{
 	flex: 25%;
 	max-width: 25%;
@@ -46,7 +57,29 @@ https://www.youtube.com/watch?v=wsTv9y931o8&t=530s*/
 }
 
 /*this part is for the action page*/ 
-/*.apicture img {
+.apicture img {
 	height: 500px;
 	width: auto;
+}
+body{
+	background: linear-gradient(red, white); /* creates a red to pink color gradient*/
+	background-repeat: no-repeat; /* makes sure the graident is only shown once doesn't repeat itself multiple times*/
+	width: auto;
+	height: 50%; /* makes the gradient stop at 50% of the webpage/*
+	/*@ reference https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d
+	https://www.youtube.com/watch?v=wRNinF7YQqQ&t=1180s (16:56-20:52) */
+}
+
+div.contactS {
+  text-align: center; /* puts the text in the center*/
+}
+  
+ /* this part is for the contact page*/
+.ctc-details{
+	text-align: right;
+}
+
+.ctc-details{
+display: inline-block;
+    vertical-align: top;
 }
