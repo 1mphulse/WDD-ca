@@ -26,20 +26,19 @@
 
 .photo-gallery {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* makes the items wrap onto multiple lines*/
   gap: 10px;
 }
 
-@media (max-width: 500px){
+@media (max-width: 768px){ /* this tag is for targeting devices with screens up to a certain maximum width (768px is the screen size of an ipad)*/
 .column{
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /* specifies the direction of the items, column is top to bottom*/
 	gap: 15px
 	
 	}
 }
 
-	/*makes all the pictures the same dimensions*/
 img{
 	width: 100%;
   height: auto;
@@ -59,7 +58,7 @@ https://www.youtube.com/watch?v=wsTv9y931o8&t=530s*/
 /*this part is for the action page*/ 
 .apicture img {
 	height: 500px;
-	width: auto;
+	width: auto; /* allows the computer to calculate the width of the photo, usually keeps the pics aspect ratio/*
 }
 body{
 	background: linear-gradient(red, white); /* creates a red to pink color gradient*/
@@ -75,11 +74,8 @@ div.contactS {
 }
   
  /* this part is for the contact page*/
-.ctc-details{
-	text-align: right;
-}
-
-.ctc-details{
-display: inline-block;
-    vertical-align: top;
+ /* I was supposed to add code here to make the contact detail appear on the right of the screen so it would look balanced and aesthetic
+  I was at it for the last 2 hours plus but for some reason I've been unable to do it,
+	I tried flexbox and allign tags ect but nothing worked so I left it as is/*
+.
 }
